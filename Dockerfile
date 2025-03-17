@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y \
 
 # Set environment variables
 ENV AGENT_VERSION=4.252.0
-ENV AZP_URL=https://dev.azure.com/YOUR_ORG
+ENV AZP_URL=https://dev.azure.com/shar1217
 ENV AGENT_WORK=/azp/work
 
 # Create a non-root user
